@@ -1,0 +1,43 @@
+#container {
+  height: auto;
+  background-color: royalblue;
+  color: white;
+  font-size: larger;
+  display: flex;
+  /* position: fixed; */
+  width: 100%;
+}
+
+#navitems {
+  color: whitesmoke;
+  font-size: 1.5rem;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+#navitems > div {
+  display: flex;
+  margin: auto;
+  padding: 10px;
+  cursor: pointer;
+}
+
+#logout {
+  display: flex;
+  padding: 10px;
+  align-self: flex-end;
+  flex-direction: row-reverse;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+#container > #logout {
+  align-items: flex-end;
+}
+
+#logcontainer {
+  flex-grow: 1;
+}

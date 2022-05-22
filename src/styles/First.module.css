@@ -1,0 +1,64 @@
+.container {
+  overflow-y: scroll;
+}
+
+.cardcontainer {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  /* background-image: url("https://img.etimg.com/thumb/msid-91679860,width-120,height-100,imgsize-29048,overlay-etmarkets/photo.jpg"); */
+  color: white;
+  /* background-repeat: no-repeat; */
+  border: 2px solid black;
+  background-color: rgb(46, 45, 45);
+  margin: 5px;
+  border-radius: 8px;
+}
+.card {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  /* font-size: 9px; */
+  /* background-image: url("https://img.etimg.com/thumb/msid-91679860,width-120,height-100,imgsize-29048,overlay-etmarkets/photo.jpg"); */
+  color: white;
+  /* background-color: aqua;
+  background-repeat: no-repeat;
+  border: 2px solid black; */
+}
+.card > img {
+  border-radius: 8px;
+  /* border: 2px solid black; */
+}
+
+.detail {
+  height: 204px;
+  flex-grow: 1;
+  margin-left: 4px;
+  box-sizing: border-box;
+  padding: 0px 5px 5px 5px;
+  /* background-color: rgb(9, 6, 6); */
+  color: white;
+}
+
+.content {
+  display: flex;
+  /* width: 100%; */
+  height: 100%;
+  padding: 0px 5px 5px 5px;
+  color: rgb(255, 255, 255);
+}
+.readmore {
+  padding: 0px 4px 5px 5px;
+  color: grey;
+  font-weight: 600;
+  text-align: left;
+  display: flex;
+}
+.readmore > a {
+  color: white;
+  text-decoration: none;
+}
